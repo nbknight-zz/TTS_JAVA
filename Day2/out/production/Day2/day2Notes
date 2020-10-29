@@ -1,0 +1,28 @@
+Concurrency & multithreading
+
+Concurrency
+Processes and Threads
+
+Spawn new processes or threads
+ process - new standalone application that you call from you main thread/application - it's something you spaw, when
+the
+  main application stops you want to shut down the process
+
+ IPC - interprocess communication - how processes talk to each other
+
+ Threads - like a splinter off the main application - start, stop, gets interrupted. Whoever starts the thread has total
+  control over it.
+
+//using Java 8 Runnable - see docs
+
+Runnable vs Thread https://www.geeksforgeeks.org/implement-runnable-vs-extend-thread-in-java/
+
+Thread
+For thread you have to extend Thread - limited because it can only use things that are derived from Threads
+
+Runnable
+for Runnable you have to implement Runnable. It is more general. Derives itself from Threads so you have to declare a
+thread.
+
+static method and variable means that it can't be changed
+

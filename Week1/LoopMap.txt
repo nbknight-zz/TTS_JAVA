@@ -1,0 +1,5 @@
+Map Problem:
+https://github.com/nbknight/TTS_JAVA/blob/main/Week1/MapProblem/src/Main.java
+
+Loop Problem:
+https://github.com/nbknight/TTS_JAVA/blob/main/Week1/LoopProblem/src/Main.java
