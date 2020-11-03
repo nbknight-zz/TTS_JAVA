@@ -1,0 +1,85 @@
+Topics: Lambdas, Design Patterns
+
+Lambda Functions in Java
+
+what is a lambda - anonymous function and uses ->
+
+function blah(parm1, parmx, ...) {
+logic
+}
+
+(parm1, parmx ...) -> {System.out.println(x.y)} //<- lambda with 2 params
+
+() -> {System.out.println("Words are here") //<- lambda with no params
+
+writeFile('/path/to/File', dataToWrite, function(err) {
+      System.out.println("Something bad happen -" +  err")
+  })
+
+  writeFile('/path/to/File', dataToWrite, err -> {
+      System.out.println("Something bad happen -" +  err")
+  })
+
+
+-------Design Patterns-------
+
+/*****
+**Design Patterns - Book by the Gang of Four (GoF); [http://wiki.c2.com/?DesignPatternsBook]
+**Anti-Patterns - Andrew Koenig [https://sahandsaba
+.com/nine-anti-patterns-every-programmer-should-be-aware-of-with-examples.html]
+*****/
+
+Often used in package libraries
+Anti patterns can be bad habits
+
+3 categories of patterns
+
+-Creational
+-Structural
+-Behavioral
+
+Creational -
+    Builder
+    Prototype
+    Factory
+    Abstract Factory
+    Singleton
+
+  Singleton - Want only one instance of something
+    - declare a class with a private constructor or use an enum with properties and methods.
+    - making sure your singletons are thread-safe in a multi-threaded environment - with enum it is build in, with a
+    class developer has to ensure it is thread safe.
+    - everyone can access - like a global variable
+    - enums are a secial class of variable - they are not garbage collected. Singleton that is class based - no
+    references or not used makes it eligible for garbage collection.
+
+
+Structural -
+    Adapter
+    Bridge
+    Composite
+    Decorator
+    Facade
+    Flyweight
+
+  Decorator -
+   - add additional responsibilities/features/aspects to an object after it is created
+
+Behavioral -
+    Command - abstracting actions into descrete pieces of logic that is segregated from other actions {implementing your
+     own shell, compiler, app that proxies on top of another system.
+    Chain of Responsibility - processing chain of different functions that controls the flow of information
+    Iterator - provides a way to get access to the primary object and loop over it sequentially
+    Observer - pub/sub = publish/subscribe, esb = enterprise service bus - messaging bus, message queues
+    Strategy
+    Visitor
+
+DAO = Data Access Object
+
+Java Class that matches the informatoin in the table.
+
+
+
+
+
+
