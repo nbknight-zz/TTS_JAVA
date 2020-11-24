@@ -1,0 +1,16 @@
+package tddList;
+
+import static org.junit.Assert.*;
+import java.util.List;
+import org.junit.Test;
+
+public class CustomListTest {
+	
+	@Test
+	public void givenEmptyList_whenIsEmpty_thenTrueIsReturned() {
+	    List<Object> list = new CustomList<>();
+	 
+	    assertTrue(list.isEmpty());
+	}
+
+}

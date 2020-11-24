@@ -1,0 +1,30 @@
+package practice;
+
+import static org.junit.Assert.*;
+import org.junit.Test;
+
+
+public class PasswordTest {
+	
+	@Test
+	public void lowerBoundaryCheck() throws Throwable {
+		Password myPass = new Password();
+		Integer rand = myPass.genRandom(4);
+		assertEquals(rand, -99);
+	}
+	
+	@Test
+	public void upperBoundaryCheck() throws Throwable {
+		Password myPass = new Password();
+		Integer rand = myPass.genRandom(13);
+		assertEquals(rand, -99);
+	}
+	
+	@Test
+	public void upperBoundaryCheck() throws Throwable {
+		Password myPass = new Password();
+		Integer rand = myPass.genRandom((int) 5.2);
+		asertEquals(rand, -99);
+	}
+
+}

@@ -1,0 +1,19 @@
+package practice;
+
+import static org.junit.Assert.*;
+
+import org.junit.Test;
+
+public class ConvertTest {
+
+	@Test
+	public void testConvertLength() {
+//		fail("Not yet implemented");
+		Convert test = new Convert();
+		Double length = 12.5;
+		String unit = "centimeters";
+		
+		assertTrue(test.convertLength(length, unit) == 5);
+	}
+
+}

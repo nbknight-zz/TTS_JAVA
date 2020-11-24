@@ -1,0 +1,14 @@
+package practice;
+
+public class Convert {
+	
+	public double convertLength(double length, String unit) {
+		if(unit.equalsIgnoreCase("inches")){
+            return (length * 2.54); 
+        }else{
+            return (length / 2.54);
+        }
+		
+	}
+
+}

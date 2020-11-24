@@ -1,0 +1,36 @@
+/**
+ * 
+ */
+package tddList;
+
+import java.util.Arrays;
+import java.util.Collection;
+import java.util.Iterator;
+import java.util.List;
+import java.util.ListIterator;
+
+/**
+ * @author Nick Knight
+ *
+ */
+public class CustomList<E> implements List<E> {
+	private Object[] internal = {};
+	//empty implementation method
+	@Override
+	public boolean isEmpty() {
+		return internal.length == 0;
+	}
+	
+	@Override
+	public boolean add(E element) {
+		internal = new Object[] { element };
+	    return false;
+	}
+	
+	@Override
+	public int size() {
+		return internal.length;
+		
+	}
+
+}

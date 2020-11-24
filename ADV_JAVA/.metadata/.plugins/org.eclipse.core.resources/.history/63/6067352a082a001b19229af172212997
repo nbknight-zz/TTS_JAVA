@@ -1,0 +1,44 @@
+package practice;
+
+import static org.junit.Assert.*;
+
+import org.junit.Test;
+
+public class ConvertTest {
+
+	@Test
+	public void testConvertLength() {
+//		fail("Not yet implemented");
+		Convert test = new Convert();
+		Double length = 12.5;
+		String unit = "centimeters";
+		
+		assertTrue(test.convertLength(length, unit) == 5);
+	}
+	
+	@Test
+	public void testConvertVolume() {
+		Convert test = new Convert();
+		double amount = 2957.0;
+		String unit = "L";
+		assertEquals(test.convertVolume(amount, unit), 100.0, 0);
+	}
+	
+	@Test
+	public void testConvertTemperature() {
+		Convert test = new Convert();
+		double temp = 100.0;
+		String unit = "F";
+		assertEquals(test.convertTemperature(temp, unit),212.0, 0);
+		
+	}
+	
+	@Test
+	public void testAddString() {
+		Convert test = new Convert();
+		String a = "Hello";
+		String b = "World!";
+		assertTrue(test.addString(a, b) == "Hello World");
+	}
+
+}

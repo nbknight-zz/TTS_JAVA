@@ -1,0 +1,23 @@
+package practice;
+
+public class Convert {
+	
+	public double convertLength(double length, String unit) {
+		if(unit.equalsIgnoreCase("inches")){
+            return (length * 2.5); 
+        }else{
+            return (length / 2.5);
+        }
+		
+	}
+	
+	public double convertVolume (double amount, String unit){
+
+        if(unit.equalsIgnoreCase("mL")){
+            return (amount * 29.57); 
+        }else{
+            return (amount / 29.57);
+        }
+}
+
+}
