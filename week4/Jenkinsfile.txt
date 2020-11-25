@@ -1,0 +1,35 @@
+pipeline {
+    agent any
+	environment {
+	SPLEBASE = "/u01/app/spl/RMB2800"
+	ret_val = "${}"
+	DATE = "date"
+	SPLENVIRONMENT="`cat /etc/cistab | cut -d':' -f1`"
+	}
+    stages {
+        stage('set environment') {
+            steps {
+                echo "starting starttpw_TESTTPW.sh"
+				echo env.SPLEBASE
+				echo env.SPLENVIRONMENT
+            }
+        }
+		stage('Start TPW') {
+			steps {
+				sh "/u01/app/spl/RMB2800/bin/splenviron.sh -e $SPLENVIRONMENT"
+				sh "/u01/app/spl/RMB2800/bin/threadpoolworker.sh -d Y -p TESTTPW=5 &"
+			}
+		}
+		stage('Get return val') {
+			steps {
+				echo "return value is env.ret_val"
+				echo "Finished starttpw_TESTTPW.sh"
+			}
+		}
+		stage('Exit') {
+			steps {
+				echo (env.ret_val)
+			}
+		}
+    }
+}
