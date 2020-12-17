@@ -27,7 +27,7 @@ public class UserController {
     @GetMapping(value = "/users/{username}")
 	public String getUser(@PathVariable(value="username") String username, Model model) {	
 	    User user = userService.findByUsername(username);
-	    List<Tweet> tweets = tweetService.findAllByUser(user);
+	    List<TweetDisplay> tweets = tweetService.findAllByUser(user);
 	    User loggedInUser = userService.getLoggedInUser();
 	    List<User> following = loggedInUser.getFollowing();
 	    boolean isFollowing = false;
@@ -59,7 +59,7 @@ public class UserController {
 	private void SetTweetCounts(List<User> users, Model model) {
 	    HashMap<String,Integer> tweetCounts = new HashMap<>();
 	    for (User user : users) {
-	        List<Tweet> tweets = tweetService.findAllByUser(user);
+	        List<TweetDisplay> tweets = tweetService.findAllByUser(user);
 	        tweetCounts.put(user.getUsername(), tweets.size());
 	    }
 	    model.addAttribute("tweetCounts", tweetCounts);
