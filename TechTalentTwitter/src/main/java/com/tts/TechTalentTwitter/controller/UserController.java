@@ -40,9 +40,10 @@ public class UserController {
     	}
     	boolean isSelfPage = loggedInUser.getUsername().equals(username);
     	model.addAttribute("tweetList", tweets);
-    	model.addAttribute("isSelfPage", isSelfPage);
+    	model.addAttribute("user", user);
     	model.addAttribute("following", isFollowing);
-	    model.addAttribute("user", user);
+    	model.addAttribute("isSelfPage", isSelfPage);
+	    
 	    return "user";
 	}
     @GetMapping(value = "/users")

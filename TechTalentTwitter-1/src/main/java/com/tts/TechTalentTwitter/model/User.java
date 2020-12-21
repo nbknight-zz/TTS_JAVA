@@ -20,9 +20,9 @@ import javax.validation.constraints.Pattern;
 import org.hibernate.annotations.CreationTimestamp;
 import org.hibernate.validator.constraints.Length;
 
-import lombok.AllArgsConstructor;
-import lombok.Builder;
 import lombok.Data;
+import lombok.Builder;
+import lombok.AllArgsConstructor;
 import lombok.NoArgsConstructor;
 
 @Data
@@ -31,10 +31,10 @@ import lombok.NoArgsConstructor;
 @NoArgsConstructor
 @Entity
 public class User {
-	
 	@Id
 	@GeneratedValue(strategy = GenerationType.AUTO)
 	@Column(name = "user_id")
+	
 	private Long id;
 
 	@Email(message = "Please provide a valid email")
@@ -54,19 +54,17 @@ public class User {
 	    
 	@NotEmpty(message = "Please provide your last name")
 	private String lastName;
-	private int active;
-
-	@CreationTimestamp 
+	private int active; //this is a flag with the value of 1 for active
+	
+	@CreationTimestamp
 	private Date createdAt;
 	
 	@ManyToMany(cascade = CascadeType.ALL)
-	@JoinTable(name = "user_role", joinColumns = @JoinColumn(name = "user_id"), 
-	    inverseJoinColumns = @JoinColumn(name = "role_id"))
+	@JoinTable(name = "user_role", joinColumns = @JoinColumn(name = "user_id"), inverseJoinColumns = @JoinColumn(name = "role_id"))
 	private Set<Role> roles;
 	
 	@ManyToMany(cascade = CascadeType.ALL)
-	@JoinTable(name = "user_follower", joinColumns = @JoinColumn(name = "user_id"), 
-	    inverseJoinColumns = @JoinColumn(name = "follower_id"))
+	@JoinTable(name = "user_follower", joinColumns = @JoinColumn(name = "user_id"), inverseJoinColumns = @JoinColumn(name = "follower_id"))
 	private List<User> followers;
 	
 	@ManyToMany(mappedBy="followers")
