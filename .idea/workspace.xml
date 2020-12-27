@@ -2,34 +2,52 @@
 <project version="4">
   <component name="ChangeListManager">
     <list default="true" id="62d8b2f5-b5db-4de0-b777-d8a68fe01401" name="Default Changelist" comment="">
-      <change beforePath="$PROJECT_DIR$/TechTalentTwitter-1/src/main/java/com/tts/TechTalentTwitter/configuration/SecurityConfiguration.java" beforeDir="false" afterPath="$PROJECT_DIR$/TechTalentTwitter-1/src/main/java/com/tts/TechTalentTwitter/configuration/SecurityConfiguration.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/TechTalentTwitter-1/src/main/java/com/tts/TechTalentTwitter/configuration/WebMvcConfiguration.java" beforeDir="false" afterPath="$PROJECT_DIR$/TechTalentTwitter-1/src/main/java/com/tts/TechTalentTwitter/configuration/WebMvcConfiguration.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/TechTalentTwitter-1/src/main/java/com/tts/TechTalentTwitter/controller/AuthorizationController.java" beforeDir="false" afterPath="$PROJECT_DIR$/TechTalentTwitter-1/src/main/java/com/tts/TechTalentTwitter/controller/AuthorizationController.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/TechTalentTwitter-1/src/main/java/com/tts/TechTalentTwitter/controller/FollowController.java" beforeDir="false" afterPath="$PROJECT_DIR$/TechTalentTwitter-1/src/main/java/com/tts/TechTalentTwitter/controller/FollowController.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/TechTalentTwitter-1/src/main/java/com/tts/TechTalentTwitter/controller/TweetController.java" beforeDir="false" afterPath="$PROJECT_DIR$/TechTalentTwitter-1/src/main/java/com/tts/TechTalentTwitter/controller/TweetController.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/TechTalentTwitter-1/src/main/java/com/tts/TechTalentTwitter/controller/UserController.java" beforeDir="false" afterPath="$PROJECT_DIR$/TechTalentTwitter-1/src/main/java/com/tts/TechTalentTwitter/controller/UserController.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/TechTalentTwitter-1/src/main/java/com/tts/TechTalentTwitter/model/Tag.java" beforeDir="false" afterPath="$PROJECT_DIR$/TechTalentTwitter-1/src/main/java/com/tts/TechTalentTwitter/model/Tag.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/TechTalentTwitter-1/src/main/java/com/tts/TechTalentTwitter/model/Tweet.java" beforeDir="false" afterPath="$PROJECT_DIR$/TechTalentTwitter-1/src/main/java/com/tts/TechTalentTwitter/model/Tweet.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/TechTalentTwitter-1/src/main/java/com/tts/TechTalentTwitter/model/TweetDisplay.java" beforeDir="false" afterPath="$PROJECT_DIR$/TechTalentTwitter-1/src/main/java/com/tts/TechTalentTwitter/model/TweetDisplay.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/TechTalentTwitter-1/src/main/java/com/tts/TechTalentTwitter/model/User.java" beforeDir="false" afterPath="$PROJECT_DIR$/TechTalentTwitter-1/src/main/java/com/tts/TechTalentTwitter/model/User.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/TechTalentTwitter-1/src/main/java/com/tts/TechTalentTwitter/repository/RoleRepository.java" beforeDir="false" afterPath="$PROJECT_DIR$/TechTalentTwitter-1/src/main/java/com/tts/TechTalentTwitter/repository/RoleRepository.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/TechTalentTwitter-1/src/main/java/com/tts/TechTalentTwitter/repository/TagRepository.java" beforeDir="false" afterPath="$PROJECT_DIR$/TechTalentTwitter-1/src/main/java/com/tts/TechTalentTwitter/repository/TagRepository.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/TechTalentTwitter-1/src/main/java/com/tts/TechTalentTwitter/repository/TweetRepository.java" beforeDir="false" afterPath="$PROJECT_DIR$/TechTalentTwitter-1/src/main/java/com/tts/TechTalentTwitter/repository/TweetRepository.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/TechTalentTwitter-1/src/main/java/com/tts/TechTalentTwitter/service/TweetService.java" beforeDir="false" afterPath="$PROJECT_DIR$/TechTalentTwitter-1/src/main/java/com/tts/TechTalentTwitter/service/TweetService.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/TechTalentTwitter-1/src/main/java/com/tts/TechTalentTwitter/service/UserService.java" beforeDir="false" afterPath="$PROJECT_DIR$/TechTalentTwitter-1/src/main/java/com/tts/TechTalentTwitter/service/UserService.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/TechTalentTwitter-1/src/main/resources/application.properties" beforeDir="false" afterPath="$PROJECT_DIR$/TechTalentTwitter-1/src/main/resources/application.properties" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/TechTalentTwitter-1/src/main/resources/static/custom.js" beforeDir="false" afterPath="$PROJECT_DIR$/TechTalentTwitter-1/src/main/resources/static/custom.js" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/TechTalentTwitter-1/src/main/resources/templates/feed.html" beforeDir="false" afterPath="$PROJECT_DIR$/TechTalentTwitter-1/src/main/resources/templates/feed.html" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/TechTalentTwitter-1/src/main/resources/templates/login.html" beforeDir="false" afterPath="$PROJECT_DIR$/TechTalentTwitter-1/src/main/resources/templates/login.html" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/TechTalentTwitter-1/src/main/resources/templates/user.html" beforeDir="false" afterPath="$PROJECT_DIR$/TechTalentTwitter-1/src/main/resources/templates/user.html" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/TechTalentTwitter-1/src/main/resources/templates/users.html" beforeDir="false" afterPath="$PROJECT_DIR$/TechTalentTwitter-1/src/main/resources/templates/users.html" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/TechTalentTwitter-1/.gitignore" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/TechTalentTwitter-1/.mvn/wrapper/MavenWrapperDownloader.java" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/TechTalentTwitter-1/.mvn/wrapper/maven-wrapper.jar" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/TechTalentTwitter-1/.mvn/wrapper/maven-wrapper.properties" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/TechTalentTwitter-1/mvnw" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/TechTalentTwitter-1/mvnw.cmd" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/TechTalentTwitter-1/pom.xml" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/TechTalentTwitter-1/src/main/java/com/tts/TechTalentTwitter/TechTalentTwitter1Application.java" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/TechTalentTwitter-1/src/main/java/com/tts/TechTalentTwitter/configuration/SecurityConfiguration.java" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/TechTalentTwitter-1/src/main/java/com/tts/TechTalentTwitter/configuration/ThymeleafConfiguration.java" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/TechTalentTwitter-1/src/main/java/com/tts/TechTalentTwitter/configuration/WebMvcConfiguration.java" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/TechTalentTwitter-1/src/main/java/com/tts/TechTalentTwitter/controller/AuthorizationController.java" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/TechTalentTwitter-1/src/main/java/com/tts/TechTalentTwitter/controller/FollowController.java" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/TechTalentTwitter-1/src/main/java/com/tts/TechTalentTwitter/controller/TweetController.java" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/TechTalentTwitter-1/src/main/java/com/tts/TechTalentTwitter/controller/UserController.java" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/TechTalentTwitter-1/src/main/java/com/tts/TechTalentTwitter/model/Role.java" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/TechTalentTwitter-1/src/main/java/com/tts/TechTalentTwitter/model/Tag.java" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/TechTalentTwitter-1/src/main/java/com/tts/TechTalentTwitter/model/Tweet.java" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/TechTalentTwitter-1/src/main/java/com/tts/TechTalentTwitter/model/TweetDisplay.java" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/TechTalentTwitter-1/src/main/java/com/tts/TechTalentTwitter/model/User.java" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/TechTalentTwitter-1/src/main/java/com/tts/TechTalentTwitter/repository/RoleRepository.java" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/TechTalentTwitter-1/src/main/java/com/tts/TechTalentTwitter/repository/TagRepository.java" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/TechTalentTwitter-1/src/main/java/com/tts/TechTalentTwitter/repository/TweetRepository.java" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/TechTalentTwitter-1/src/main/java/com/tts/TechTalentTwitter/repository/UserRepository.java" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/TechTalentTwitter-1/src/main/java/com/tts/TechTalentTwitter/service/TweetService.java" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/TechTalentTwitter-1/src/main/java/com/tts/TechTalentTwitter/service/UserService.java" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/TechTalentTwitter-1/src/main/resources/META-INF/additional-spring-configuration-metadata.json" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/TechTalentTwitter-1/src/main/resources/application.properties" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/TechTalentTwitter-1/src/main/resources/data.sql" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/TechTalentTwitter-1/src/main/resources/static/custom.css" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/TechTalentTwitter-1/src/main/resources/static/custom.js" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/TechTalentTwitter-1/src/main/resources/templates/feed.html" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/TechTalentTwitter-1/src/main/resources/templates/fragments/head.html" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/TechTalentTwitter-1/src/main/resources/templates/fragments/navbar.html" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/TechTalentTwitter-1/src/main/resources/templates/login.html" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/TechTalentTwitter-1/src/main/resources/templates/newTweet.html" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/TechTalentTwitter-1/src/main/resources/templates/registration.html" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/TechTalentTwitter-1/src/main/resources/templates/user.html" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/TechTalentTwitter-1/src/main/resources/templates/users.html" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/TechTalentTwitter-1/src/test/java/com/tts/TechTalentTwitter/TechTalentTwitter1ApplicationTests.java" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/TechTalentTwitter/src/main/java/com/tts/TechTalentTwitter/configuration/SecurityConfiguration.java" beforeDir="false" afterPath="$PROJECT_DIR$/TechTalentTwitter/src/main/java/com/tts/TechTalentTwitter/configuration/SecurityConfiguration.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/TechTalentTwitter/src/main/java/com/tts/TechTalentTwitter/controller/AuthorizationController.java" beforeDir="false" afterPath="$PROJECT_DIR$/TechTalentTwitter/src/main/java/com/tts/TechTalentTwitter/controller/AuthorizationController.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/TechTalentTwitter/src/main/java/com/tts/TechTalentTwitter/controller/FollowController.java" beforeDir="false" afterPath="$PROJECT_DIR$/TechTalentTwitter/src/main/java/com/tts/TechTalentTwitter/controller/FollowController.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/TechTalentTwitter/src/main/java/com/tts/TechTalentTwitter/controller/TweetController.java" beforeDir="false" afterPath="$PROJECT_DIR$/TechTalentTwitter/src/main/java/com/tts/TechTalentTwitter/controller/TweetController.java" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/TechTalentTwitter/src/main/java/com/tts/TechTalentTwitter/controller/UserController.java" beforeDir="false" afterPath="$PROJECT_DIR$/TechTalentTwitter/src/main/java/com/tts/TechTalentTwitter/controller/UserController.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/TechTalentTwitter/src/main/java/com/tts/TechTalentTwitter/model/User.java" beforeDir="false" afterPath="$PROJECT_DIR$/TechTalentTwitter/src/main/java/com/tts/TechTalentTwitter/model/User.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/TechTalentTwitter/src/main/java/com/tts/TechTalentTwitter/service/UserService.java" beforeDir="false" afterPath="$PROJECT_DIR$/TechTalentTwitter/src/main/java/com/tts/TechTalentTwitter/service/UserService.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/TechTalentTwitter/src/main/resources/data.sql" beforeDir="false" afterPath="$PROJECT_DIR$/TechTalentTwitter/src/main/resources/data.sql" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/TechTalentTwitter/src/main/resources/static/custom.css" beforeDir="false" afterPath="$PROJECT_DIR$/TechTalentTwitter/src/main/resources/static/custom.css" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/TechTalentTwitter/src/main/resources/templates/login.html" beforeDir="false" afterPath="$PROJECT_DIR$/TechTalentTwitter/src/main/resources/templates/login.html" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/TechTalentTwitter/src/main/resources/templates/taggedTweets.html" beforeDir="false" afterPath="$PROJECT_DIR$/TechTalentTwitter/src/main/resources/templates/taggedTweets.html" afterDir="false" />
     </list>
     <ignored path="$PROJECT_DIR$/out/" />
     <option name="EXCLUDED_CONVERTED_TO_IGNORED" value="true" />
@@ -39,21 +57,26 @@
     <option name="LAST_RESOLUTION" value="IGNORE" />
   </component>
   <component name="FileEditorManager">
-    <leaf SIDE_TABS_SIZE_LIMIT_KEY="300">
+    <leaf>
       <file pinned="false" current-in-tab="false">
-        <entry file="file://$PROJECT_DIR$/ItJDay1/src/BobRandom.java">
+        <entry file="file://$PROJECT_DIR$/TestApp/src/main/java/com/tts/GreetingController.java">
           <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="396">
-              <caret line="18" lean-forward="true" selection-start-line="18" selection-end-line="18" />
+            <state relative-caret-position="176">
+              <caret line="8" column="33" selection-start-line="8" selection-start-column="33" selection-end-line="8" selection-end-column="33" />
             </state>
           </provider>
         </entry>
       </file>
       <file pinned="false" current-in-tab="true">
-        <entry file="file://$PROJECT_DIR$/ItJDay1/src/Customer.java">
+        <entry file="file://$PROJECT_DIR$/TestApp/src/main/java/com/tts/Message.java">
+          <provider selected="true" editor-type-id="text-editor" />
+        </entry>
+      </file>
+      <file pinned="false" current-in-tab="false">
+        <entry file="file://$PROJECT_DIR$/TestApp/src/main/java/com/tts/TestAppApplication.java">
           <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="352">
-              <caret line="16" column="23" lean-forward="true" selection-start-line="16" selection-start-column="23" selection-end-line="16" selection-end-column="23" />
+            <state relative-caret-position="22">
+              <caret line="1" selection-start-line="1" selection-end-line="1" />
             </state>
           </provider>
         </entry>
@@ -77,21 +100,25 @@
         <option value="$PROJECT_DIR$/src/Password.java" />
         <option value="$PROJECT_DIR$/src/Main.java" />
         <option value="$PROJECT_DIR$/ItJDay1/src/Customer.java" />
+        <option value="$PROJECT_DIR$/TechTalentTwitter/src/main/java/com/tts/TechTalentTwitter/configuration/SecurityConfiguration.java" />
+        <option value="$PROJECT_DIR$/TechTalentTwitter/src/main/java/com/tts/TechTalentTwitter/controller/AuthorizationController.java" />
+        <option value="$PROJECT_DIR$/TechTalentTwitter/src/main/java/com/tts/TechTalentTwitter/controller/FollowController.java" />
+        <option value="$PROJECT_DIR$/TechTalentTwitter/src/main/java/com/tts/TechTalentTwitter/controller/TweetController.java" />
+        <option value="$PROJECT_DIR$/TechTalentTwitter/src/main/java/com/tts/TechTalentTwitter/controller/UserController.java" />
       </list>
     </option>
   </component>
   <component name="ProjectFrameBounds" extendedState="6">
-    <option name="x" value="1912" />
-    <option name="y" value="-18" />
-    <option name="width" value="1096" />
-    <option name="height" value="1896" />
+    <option name="x" value="-11" />
+    <option name="y" value="-11" />
+    <option name="width" value="1943" />
+    <option name="height" value="1043" />
   </component>
   <component name="ProjectView">
     <navigator proportions="" version="1">
       <foldersAlwaysOnTop value="true" />
     </navigator>
     <panes>
-      <pane id="PackagesPane" />
       <pane id="ProjectPane">
         <subPane>
           <expand>
@@ -102,36 +129,25 @@
             <path>
               <item name="TTS_JAVA" type="b2602c69:ProjectViewProjectNode" />
               <item name="TTS_JAVA" type="462c0819:PsiDirectoryNode" />
-              <item name="ItJDay1" type="462c0819:PsiDirectoryNode" />
+              <item name="TestApp" type="462c0819:PsiDirectoryNode" />
             </path>
             <path>
               <item name="TTS_JAVA" type="b2602c69:ProjectViewProjectNode" />
               <item name="TTS_JAVA" type="462c0819:PsiDirectoryNode" />
-              <item name="ItJDay1" type="462c0819:PsiDirectoryNode" />
+              <item name="TestApp" type="462c0819:PsiDirectoryNode" />
               <item name="src" type="462c0819:PsiDirectoryNode" />
             </path>
             <path>
               <item name="TTS_JAVA" type="b2602c69:ProjectViewProjectNode" />
               <item name="TTS_JAVA" type="462c0819:PsiDirectoryNode" />
-              <item name="myAweseomeProject" type="462c0819:PsiDirectoryNode" />
-            </path>
-            <path>
-              <item name="TTS_JAVA" type="b2602c69:ProjectViewProjectNode" />
-              <item name="TTS_JAVA" type="462c0819:PsiDirectoryNode" />
-              <item name="myAweseomeProject" type="462c0819:PsiDirectoryNode" />
-              <item name="src" type="462c0819:PsiDirectoryNode" />
-            </path>
-            <path>
-              <item name="TTS_JAVA" type="b2602c69:ProjectViewProjectNode" />
-              <item name="TTS_JAVA" type="462c0819:PsiDirectoryNode" />
-              <item name="myAweseomeProject" type="462c0819:PsiDirectoryNode" />
+              <item name="TestApp" type="462c0819:PsiDirectoryNode" />
               <item name="src" type="462c0819:PsiDirectoryNode" />
               <item name="main" type="462c0819:PsiDirectoryNode" />
             </path>
             <path>
               <item name="TTS_JAVA" type="b2602c69:ProjectViewProjectNode" />
               <item name="TTS_JAVA" type="462c0819:PsiDirectoryNode" />
-              <item name="myAweseomeProject" type="462c0819:PsiDirectoryNode" />
+              <item name="TestApp" type="462c0819:PsiDirectoryNode" />
               <item name="src" type="462c0819:PsiDirectoryNode" />
               <item name="main" type="462c0819:PsiDirectoryNode" />
               <item name="java" type="462c0819:PsiDirectoryNode" />
@@ -139,7 +155,7 @@
             <path>
               <item name="TTS_JAVA" type="b2602c69:ProjectViewProjectNode" />
               <item name="TTS_JAVA" type="462c0819:PsiDirectoryNode" />
-              <item name="myAweseomeProject" type="462c0819:PsiDirectoryNode" />
+              <item name="TestApp" type="462c0819:PsiDirectoryNode" />
               <item name="src" type="462c0819:PsiDirectoryNode" />
               <item name="main" type="462c0819:PsiDirectoryNode" />
               <item name="java" type="462c0819:PsiDirectoryNode" />
@@ -148,113 +164,23 @@
             <path>
               <item name="TTS_JAVA" type="b2602c69:ProjectViewProjectNode" />
               <item name="TTS_JAVA" type="462c0819:PsiDirectoryNode" />
-              <item name="myAweseomeProject" type="462c0819:PsiDirectoryNode" />
+              <item name="TestApp" type="462c0819:PsiDirectoryNode" />
               <item name="src" type="462c0819:PsiDirectoryNode" />
               <item name="main" type="462c0819:PsiDirectoryNode" />
               <item name="java" type="462c0819:PsiDirectoryNode" />
               <item name="com" type="462c0819:PsiDirectoryNode" />
               <item name="tts" type="462c0819:PsiDirectoryNode" />
-            </path>
-            <path>
-              <item name="TTS_JAVA" type="b2602c69:ProjectViewProjectNode" />
-              <item name="TTS_JAVA" type="462c0819:PsiDirectoryNode" />
-              <item name="myAweseomeProject" type="462c0819:PsiDirectoryNode" />
-              <item name="src" type="462c0819:PsiDirectoryNode" />
-              <item name="main" type="462c0819:PsiDirectoryNode" />
-              <item name="java" type="462c0819:PsiDirectoryNode" />
-              <item name="com" type="462c0819:PsiDirectoryNode" />
-              <item name="tts" type="462c0819:PsiDirectoryNode" />
-              <item name="myAwesomeProject" type="462c0819:PsiDirectoryNode" />
-            </path>
-            <path>
-              <item name="TTS_JAVA" type="b2602c69:ProjectViewProjectNode" />
-              <item name="TTS_JAVA" type="462c0819:PsiDirectoryNode" />
-              <item name="myAweseomeProject" type="462c0819:PsiDirectoryNode" />
-              <item name="src" type="462c0819:PsiDirectoryNode" />
-              <item name="main" type="462c0819:PsiDirectoryNode" />
-              <item name="java" type="462c0819:PsiDirectoryNode" />
-              <item name="com" type="462c0819:PsiDirectoryNode" />
-              <item name="tts" type="462c0819:PsiDirectoryNode" />
-              <item name="myAwesomeProject" type="462c0819:PsiDirectoryNode" />
-              <item name="controllers" type="462c0819:PsiDirectoryNode" />
-            </path>
-            <path>
-              <item name="TTS_JAVA" type="b2602c69:ProjectViewProjectNode" />
-              <item name="TTS_JAVA" type="462c0819:PsiDirectoryNode" />
-              <item name="myAweseomProject" type="462c0819:PsiDirectoryNode" />
-            </path>
-            <path>
-              <item name="TTS_JAVA" type="b2602c69:ProjectViewProjectNode" />
-              <item name="TTS_JAVA" type="462c0819:PsiDirectoryNode" />
-              <item name="myAweseomProject" type="462c0819:PsiDirectoryNode" />
-              <item name="src" type="462c0819:PsiDirectoryNode" />
-            </path>
-            <path>
-              <item name="TTS_JAVA" type="b2602c69:ProjectViewProjectNode" />
-              <item name="TTS_JAVA" type="462c0819:PsiDirectoryNode" />
-              <item name="myAweseomProject" type="462c0819:PsiDirectoryNode" />
-              <item name="src" type="462c0819:PsiDirectoryNode" />
-              <item name="main" type="462c0819:PsiDirectoryNode" />
-            </path>
-            <path>
-              <item name="TTS_JAVA" type="b2602c69:ProjectViewProjectNode" />
-              <item name="TTS_JAVA" type="462c0819:PsiDirectoryNode" />
-              <item name="myAweseomProject" type="462c0819:PsiDirectoryNode" />
-              <item name="src" type="462c0819:PsiDirectoryNode" />
-              <item name="main" type="462c0819:PsiDirectoryNode" />
-              <item name="java" type="462c0819:PsiDirectoryNode" />
-            </path>
-            <path>
-              <item name="TTS_JAVA" type="b2602c69:ProjectViewProjectNode" />
-              <item name="TTS_JAVA" type="462c0819:PsiDirectoryNode" />
-              <item name="myAweseomProject" type="462c0819:PsiDirectoryNode" />
-              <item name="src" type="462c0819:PsiDirectoryNode" />
-              <item name="main" type="462c0819:PsiDirectoryNode" />
-              <item name="java" type="462c0819:PsiDirectoryNode" />
-              <item name="com" type="462c0819:PsiDirectoryNode" />
-            </path>
-            <path>
-              <item name="TTS_JAVA" type="b2602c69:ProjectViewProjectNode" />
-              <item name="TTS_JAVA" type="462c0819:PsiDirectoryNode" />
-              <item name="myAweseomProject" type="462c0819:PsiDirectoryNode" />
-              <item name="src" type="462c0819:PsiDirectoryNode" />
-              <item name="main" type="462c0819:PsiDirectoryNode" />
-              <item name="java" type="462c0819:PsiDirectoryNode" />
-              <item name="com" type="462c0819:PsiDirectoryNode" />
-              <item name="tts" type="462c0819:PsiDirectoryNode" />
-            </path>
-            <path>
-              <item name="TTS_JAVA" type="b2602c69:ProjectViewProjectNode" />
-              <item name="TTS_JAVA" type="462c0819:PsiDirectoryNode" />
-              <item name="myAweseomProject" type="462c0819:PsiDirectoryNode" />
-              <item name="src" type="462c0819:PsiDirectoryNode" />
-              <item name="main" type="462c0819:PsiDirectoryNode" />
-              <item name="java" type="462c0819:PsiDirectoryNode" />
-              <item name="com" type="462c0819:PsiDirectoryNode" />
-              <item name="tts" type="462c0819:PsiDirectoryNode" />
-              <item name="myAwesomeProject" type="462c0819:PsiDirectoryNode" />
-            </path>
-            <path>
-              <item name="TTS_JAVA" type="b2602c69:ProjectViewProjectNode" />
-              <item name="TTS_JAVA" type="462c0819:PsiDirectoryNode" />
-              <item name="myAweseomProject" type="462c0819:PsiDirectoryNode" />
-              <item name="src" type="462c0819:PsiDirectoryNode" />
-              <item name="main" type="462c0819:PsiDirectoryNode" />
-              <item name="java" type="462c0819:PsiDirectoryNode" />
-              <item name="com" type="462c0819:PsiDirectoryNode" />
-              <item name="tts" type="462c0819:PsiDirectoryNode" />
-              <item name="myAwesomeProject" type="462c0819:PsiDirectoryNode" />
-              <item name="controllers" type="462c0819:PsiDirectoryNode" />
             </path>
           </expand>
           <select />
         </subPane>
       </pane>
       <pane id="Scope" />
+      <pane id="PackagesPane" />
     </panes>
   </component>
   <component name="PropertiesComponent">
-    <property name="com.android.tools.idea.instantapp.provision.ProvisionBeforeRunTaskProvider.myTimeStamp" value="1608404708790" />
+    <property name="com.android.tools.idea.instantapp.provision.ProvisionBeforeRunTaskProvider.myTimeStamp" value="1608562166888" />
     <property name="last_opened_file_path" value="$PROJECT_DIR$" />
     <property name="project.structure.last.edited" value="Modules" />
     <property name="project.structure.proportion" value="0.0" />
@@ -298,9 +224,9 @@
     <servers />
   </component>
   <component name="ToolWindowManager">
-    <frame x="1912" y="-18" width="1096" height="1896" extended-state="6" />
+    <frame x="-7" y="-7" width="1295" height="695" extended-state="6" />
     <layout>
-      <window_info active="true" content_ui="combo" id="Project" order="0" visible="true" weight="0.25482625" />
+      <window_info active="true" content_ui="combo" id="Project" order="0" visible="true" weight="0.26153848" />
       <window_info id="Structure" order="1" side_tool="true" weight="0.25" />
       <window_info id="Image Layers" order="2" />
       <window_info id="Designer" order="3" />
@@ -326,6 +252,33 @@
       <window_info anchor="right" id="Capture Analysis" order="6" />
       <window_info anchor="right" id="Palette&#9;" order="7" />
     </layout>
+    <layout-to-restore>
+      <window_info active="true" content_ui="combo" id="Project" order="0" visible="true" weight="0.25746268" />
+      <window_info id="Structure" order="1" side_tool="true" weight="0.25" />
+      <window_info id="Image Layers" order="2" />
+      <window_info id="Designer" order="3" />
+      <window_info id="UI Designer" order="4" />
+      <window_info id="Capture Tool" order="5" />
+      <window_info id="Favorites" order="6" side_tool="true" />
+      <window_info anchor="bottom" id="Message" order="0" />
+      <window_info anchor="bottom" id="Find" order="1" />
+      <window_info anchor="bottom" id="Run" order="2" />
+      <window_info anchor="bottom" id="Debug" order="3" weight="0.4" />
+      <window_info anchor="bottom" id="Cvs" order="4" weight="0.25" />
+      <window_info anchor="bottom" id="Inspection" order="5" weight="0.4" />
+      <window_info anchor="bottom" id="TODO" order="6" />
+      <window_info anchor="bottom" id="Terminal" order="7" />
+      <window_info anchor="bottom" id="Event Log" order="8" side_tool="true" />
+      <window_info anchor="bottom" id="Version Control" order="9" />
+      <window_info anchor="right" id="Commander" internal_type="SLIDING" order="0" type="SLIDING" weight="0.4" />
+      <window_info anchor="right" id="Ant Build" order="1" weight="0.25" />
+      <window_info anchor="right" content_ui="combo" id="Hierarchy" order="2" weight="0.25" />
+      <window_info anchor="right" id="Palette" order="3" />
+      <window_info anchor="right" id="Maven" order="4" />
+      <window_info anchor="right" id="Theme Preview" order="5" />
+      <window_info anchor="right" id="Capture Analysis" order="6" />
+      <window_info anchor="right" id="Palette&#9;" order="7" />
+    </layout-to-restore>
   </component>
   <component name="editorHistoryManager">
     <entry file="file://$PROJECT_DIR$/src/Password.java">
@@ -352,16 +305,74 @@
     <entry file="file://$PROJECT_DIR$/ItJDay1/src/BobRandom.java">
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="396">
-          <caret line="18" lean-forward="true" selection-start-line="18" selection-end-line="18" />
+          <caret line="18" selection-start-line="18" selection-end-line="18" />
         </state>
       </provider>
     </entry>
     <entry file="file://$PROJECT_DIR$/ItJDay1/src/Customer.java">
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="352">
-          <caret line="16" column="23" lean-forward="true" selection-start-line="16" selection-start-column="23" selection-end-line="16" selection-end-column="23" />
+          <caret line="16" selection-start-line="16" selection-end-line="16" />
         </state>
       </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/TechTalentTwitter/src/main/java/com/tts/TechTalentTwitter/configuration/SecurityConfiguration.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="1606">
+          <caret line="73" lean-forward="true" selection-start-line="73" selection-end-line="73" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/TechTalentTwitter/src/main/java/com/tts/TechTalentTwitter/configuration/ThymeleafConfiguration.java">
+      <provider selected="true" editor-type-id="text-editor" />
+    </entry>
+    <entry file="file://$PROJECT_DIR$/TechTalentTwitter/src/main/java/com/tts/TechTalentTwitter/configuration/WebMvcConfiguration.java">
+      <provider selected="true" editor-type-id="text-editor" />
+    </entry>
+    <entry file="file://$PROJECT_DIR$/TechTalentTwitter/src/main/java/com/tts/TechTalentTwitter/controller/AuthorizationController.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="435">
+          <caret line="28" column="41" lean-forward="true" selection-start-line="28" selection-start-column="41" selection-end-line="28" selection-end-column="41" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/TechTalentTwitter/src/main/java/com/tts/TechTalentTwitter/controller/FollowController.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="831">
+          <caret line="41" lean-forward="true" selection-start-line="41" selection-end-line="41" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/TechTalentTwitter/src/main/java/com/tts/TechTalentTwitter/controller/TweetController.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="831">
+          <caret line="91" lean-forward="true" selection-start-line="91" selection-end-line="91" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/TechTalentTwitter/src/main/java/com/tts/TechTalentTwitter/controller/UserController.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="831">
+          <caret line="100" lean-forward="true" selection-start-line="100" selection-end-line="100" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/TestApp/src/main/java/com/tts/GreetingController.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="176">
+          <caret line="8" column="33" selection-start-line="8" selection-start-column="33" selection-end-line="8" selection-end-column="33" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/TestApp/src/main/java/com/tts/TestAppApplication.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="22">
+          <caret line="1" selection-start-line="1" selection-end-line="1" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/TestApp/src/main/java/com/tts/Message.java">
+      <provider selected="true" editor-type-id="text-editor" />
     </entry>
   </component>
   <component name="masterDetails">
